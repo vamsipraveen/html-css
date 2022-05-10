@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/4e947afe00fb849dd5796dcf5f63d9e6.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+.navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 100px;
+  cursor: pointer;
+}
+.menu-icon {
+  width: 30px;
+  cursor: pointer;
+  margin: left 40px;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(2, 0, 0);
+  font-size: 20px;
+}
+.row {
+  display: flex;
+  height: 30%;
+  align-items: center;
+}
+.col {
+  flex-basis: 50%;
+}
+h1 {
+  color: rgb(2, 0, 0);
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+p {
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  line-height: 15px;
+  padding-bottom: 2rem;
+}
+button {
+  width: 5rem;
+  color: rebeccapurple;
+}
+.card {
+  width: 200px;
+  height: 230px;
+  border-radius: 10px;
+  padding: 1rem;
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 2rem;
+  background-image: url("/download.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+.card:hover {
+  transform: translateY(-10px);
+}

@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font: size 62.5%;
+}
+.clear {
+  clear: both;
+}
+h1 {
+  font-size: 2.8rem;
+  color: rgb(0, 78, 245);
+}
+h2 {
+  font-size: 2.2rem;
+  padding: 2rem 0rem;
+  color: rgb(57, 14, 245);
+}
+a {
+  color: rgb(96, 94, 212);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.8rem;
+  color: rgb(21, 99, 112);
+}
+
+button {
+  font-size: 1.2rem;
+  width: 5rem;
+  color: rgb(255, 0, 21);
+}
+nav {
+  background: rgb(236, 187, 167);
+  color: rgb(142, 213, 231);
+}
+
+nav h1 {
+  float: left;
+}
+nav ul {
+  float: right;
+  list-style: none;
+}
+nav li {
+  float: left;
+  margin: 0rem 4rem;
+}
+
+.hero-section {
+  background-image: url("/tasty-canapes-food-border-light-background-40235832.jpg");
+  height: 40rem;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding-top: 5rem;
+}
+
+.hero-section button {
+  padding: 1rem 1rem;
+  margin-top: 4rem;
+  background: rgb(101, 192, 219);
+  border: none;
+  color: rgb(238, 13, 51);
+  cursor: pointer;
+}
+.form-section {
+  text-align: center;
+}
+
+form {
+}
+form input,
+form label,
+form textarea {
+  display: block;
+  font: size 2.4rem;
+  width: 50%;
+  padding: 0.8;
+}
+form input,
+form textarea {
+  margin: auto;
+}
+form button {
+  padding: 1rem 0.5rem;
+  margin-top: 4rem;
+  background: rgb(101, 192, 219);
+  border: none;
+  color: rgb(238, 13, 51);
+  cursor: pointer;
+}

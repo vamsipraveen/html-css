@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BUY WITH US</title>
+    <link rel="stylesheet" href="/realphone.css" />
+  </head>
+  <body>
+    <div class="main">
+      <nav>
+        <div class="logo">
+          <img src="/realphonelogo.png" />
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">phones</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">cart</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="information">
+        <img src="/mobile.png" class="mobile" />
+
+        <div id="circle">
+          <div class="feature one">
+            <img src="/camera.png" />
+            <div>
+              <h1>Camera</h1>
+              <p>12MP, Wide Angle lens</p>
+            </div>
+          </div>
+          <div class="feature two">
+            <img src="/processor.png" />
+            <div>
+              <h1>Processor</h1>
+              <p>snapdragon octa-core 11nm</p>
+            </div>
+          </div>
+          <div class="feature three">
+            <img src="/display.png" />
+            <div>
+              <h1>Display</h1>
+              <p>6.5" Mini-drop full screen</p>
+            </div>
+          </div>
+          <div class="feature four">
+            <img src="/battery.png" />
+            <div>
+              <h1>Battery</h1>
+              life
+              <p>5000mAh,720Hrs standby</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="controls">
+        <img src="/rp arrow.png" id="upbtn" />
+        <h3>Features</h3>
+        <img src="/arrow.png" id="downbtn" />
+      </div>
+    </div>
+    <script>
+      var circle = document.getElementById("cricle");
+      var upbtn = document.getElementById("upbtn");
+      var downbtn = document.getElementById("downbtn");
+
+      var rotatevalue = circle.style.transform;
+      var rotatesum;
+
+      upbtn.onclick = function () {
+        rotatesum = rotatevalue + "rotate(-90deg)";
+        circle.style.transform = rotatesum;
+        rotatevalue = rotatesum;
+      };
+      downbtn.onclick = function () {
+        rotatesum = rotatevalue + "rotate(90deg)";
+        circle.style.transform = rotatesum;
+        rotatevalue = rotatesum;
+      };
+    </script>
+  </body>
+</html>
